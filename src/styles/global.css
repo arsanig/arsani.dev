@@ -1,1 +1,26 @@
 @import 'tailwindcss';
+
+@theme {
+    --font-bebas: 'bebas-neue', 'sans-serif';
+    --font-montserrat: 'montserrat', 'sans-serif';
+}
+
+@font-face {
+    font-family: 'bebas-neue';
+    src: url('/fonts/bebas-neue/bebas-neue-latin-400-normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src: url('/fonts/montserrat/montserrat-latin-400-normal.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: black;
+}
